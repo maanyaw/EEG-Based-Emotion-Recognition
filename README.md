@@ -28,42 +28,19 @@ This project focuses on recognizing emotional or perceptual states from EEG sign
    - Artifact removal using ICA (eye & muscle)  
    - Amplitude thresholding for noise control
 
-3. **Deep Learning Models**  
-   We evaluated multiple architectures:
-   - CNN + LSTM
-   - EEGNet
+3. **Deep Learning Model**  
    - EEGFormer (Transformer-based)
-   - DeepConvNet
-   - ShallowConvNet
-   - Graph Neural Network (GNN)
+   
 
-4. **Evaluation & Comparison**  
-   - Accuracy used as the primary metric  
-   - CNN+LSTM achieved the highest accuracy (~90%)  
-   - Results compared against existing studies (e.g., Appaji et al., 2018)
 
----
 
-## 📊 Results
 
-| Model           | Accuracy     |
-|----------------|--------------|
-| CNN + LSTM     | **~90%**     |
-| EEGNet         | ~87%         |
-| EEGFormer      | ~85%         |
-| DeepConvNet    | ~84%         |
-| ShallowConvNet | ~83%         |
-| GNN            | ~82%         |
 
-*Note: Results are model-dependent and based on processed NMED-RP trials.*
 
----
 
-## 💡 Applications
 
-- Emotion-aware music therapy  
-- Brain-computer interface (BCI) enhancements  
-- Neurofeedback systems for affective computing
+
+
 
 ---
 
@@ -71,7 +48,7 @@ This project focuses on recognizing emotional or perceptual states from EEG sign
 
 - Python 3.8+  
 - PyTorch  
-- NumPy, SciPy, MNE  
+- NumPy 
 - Scikit-learn  
 - Matplotlib, Seaborn
 
